@@ -1,0 +1,59 @@
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  background-color: rgb(60, 4, 4);
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-style: solid;
+  border-color: black;
+  //color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(211, 80, 80);
+  color: black;
+}
+
+.active {
+  margin-left: 35%;
+
+}
+
+
+#topBar {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.square{
+  height: 400px;
+      /* I think you actually want padding for 
+         the effect you're trying to accomplish */
+  padding: 100px;
+  width: 400px;
+  background-color: #555;
+  word-wrap: break-word;
+  float: left;
+}
+
+.position{
+      margin-left: -400px;
+      margin-top: -250px;
+      left: 50%;
+      position: absolute;
+      right: 0;
+      top: 50%;
+}
+
+
